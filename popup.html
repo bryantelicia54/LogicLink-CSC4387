@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Logic Link</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Logic Link</h1>
+
+        <p class="subtitle">
+            Strengthening independent problem-solving before AI assistance.
+        </p>
+
+        <div class="status-box">
+
+            <h2>Participant Status</h2>
+
+            <p>
+                <strong>Participant ID:</strong>
+                <span id="participantDisplay">
+                    Not Assigned
+                </span>
+            </p>
+
+            <input
+                type="text"
+                id="participantInput"
+                placeholder="Enter Participant ID">
+
+            <button id="saveParticipantBtn">
+                Save Participant ID
+            </button>
+
+            <p>
+                <strong>Study Status:</strong>
+                <span id="studyStatus">
+                    Ready
+                </span>
+            </p>
+
+        <!--Session information. Displays the current session number.-->
+            <p>
+                <strong>Current Session:</strong>
+                <span id = "sessionDisplay">
+                    0
+                </span>
+            </p>
+<!-- Displayes the session start time. Used later 
+ calculate time before AI assistance-->
+            <p>
+                <strong>Session Started:</strong>
+                <span id = "timestampDisplay">
+                    Not Started
+                </span>
+            </p>
+
+        </div>
+
+        <button id="startBtn">
+            Start Session
+        </button>
+
+        <!-- Intervention Section
+         Participants must complete this
+         before AI assistance. -->
+        <div id="attemptSection">
+            <h2>
+                Independent Attempt
+            </h2>
+            <p>
+                Before using AI assistance, briefly explain how you would approach this problem.
+            </p>
+            <textarea
+                id = "attemptInput"
+                placeholder = "Describe your approach..."></textarea>
+
+            <button id ="submitAttemptBtn">
+                Submit Attempt
+            </button>
+
+            <button id="viewAttemptBtn">
+                View Latest Attempt
+            </button>
+        </div>
+
+        </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

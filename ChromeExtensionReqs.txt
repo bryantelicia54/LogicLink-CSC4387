@@ -1,0 +1,115 @@
+~~~Purpose~~~
+The Chrome Extension will encourage users to attempt tasks independently before receiving AI assistance.
+-
+The extension is intended to:
+Promote confidence
+Encourage autonomy
+Strengthen problem-solving
+Increase awareness of AI dependence
+-
+The extension will not block users from accessing AI.
+Instead, it will introduce a short reflection activity before AI assistance is provided.
+
+
+~~~Problem being Solved~~~
+Many users immediately rely on AI tools before attempting to solve problems independently.
+-
+As a result:
+Confidence may decrease
+Critical thinking may decrease
+Problem-solving skills may weaken
+-
+The extension aims to encourage users to attempt solutions first while preserving access to AI assistance afterward.
+
+
+~~~Target Users~~~
+Primary Users:
+Winston-Salem State University students majoring in Computer Science,
+Information Technology, or any other related majors
+
+
+~~~Core Features~~~
+Feature 1: AI Detection
+Purpose:
+Detect when a participant visits an AI platform.
+
+Initial Targets:
+ChatGPT
+Microsoft Copilot
+Gemini
+-
+Feature 2: Intervention Prompt
+Purpose
+Require an independent attempt before assistance.
+
+Prompt Example:
+Before using AI assistance, briefly explain how you would approach this problem.
+
+Requirements:
+Text box
+Submit button
+Continue button
+-
+Feature 3: Data Logging
+Purpose:
+Collect research data.
+
+The extension should record:
+Participant ID
+Timestamp
+Session Number
+Attempt Submitted
+Time Before AI Access
+-
+Feature 4: Export Data
+Purpose:
+Allow research data to be exported.
+
+Format:
+CSV
+
+
+~~~Data Not Collected~~~
+The extension will NOT collect:
+Passwords
+Names
+Emails
+Financial Data
+Academic Records
+Messages
+Browser History
+AI Prompts
+AI Responses
+
+
+~~~User Workflow~~~
+Participant Opens ChatGPT, Microsoft Copilot, or Gemini
+        ↓
+Extension Detects Site
+        ↓
+Intervention Prompt Appears
+        ↓
+Participant Writes Attempt
+        ↓
+Participant Clicks Submit
+        ↓
+Data Logged
+        ↓
+AI Access Granted
+
+
+~~~Success Criteria~~~
+Minimum Viable Product (MVP)
+
+The extension can:
+✅ Load in Chrome
+
+✅ Detect ChatGPT, Microsoft Copilot, or Gemini
+
+✅ Display prompt
+
+✅ Accept response
+
+✅ Log timestamp
+
+✅ Export CSV

@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+
+    "name": "Logic Link",
+
+    "version": "1.0",
+
+    "description": "Encourages independent thinking before AI assistance.",
+
+    "permissions": [
+        "storage",
+        "tabs"
+        ],
+    "host_permissions": [
+        "https://chatgpt.com/*",
+        "http://copilot.microsoft.com/*",
+        "https://gemini.google.com/*"
+        ],
+
+        "action": {
+            "default_title": "Logic Link",
+            "default_popup": "popup.html"
+        }
+    }
+
