@@ -1,0 +1,7 @@
+Version 1 MVP Goals
+
+1. Detect ChatGPT, Microsoft Copilot, or Detect Gemini
+2. Display intervention prompt
+3. Accept user response
+4. Save Timestamp
+5. Export CSV

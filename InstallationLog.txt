@@ -1,0 +1,8 @@
+Installation Log
+
+Date:
+Chrome Version:
+Extension Version:
+Installed Successfully(Y/N):
+Notes:
+ 

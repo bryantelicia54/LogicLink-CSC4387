@@ -1,0 +1,4 @@
+ParticipantID,SessionNumber, Timestamp, AttemptSubmitted, TimeBeforeAI
+P001, 1, 2026-06-01 10:05:00, Yes, 45
+P002, 1, 2026-06-01 10:15:00, Yes, 62
+P003, 1, 2026-06-01 10:25:00, Yes, 37

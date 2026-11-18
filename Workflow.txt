@@ -1,0 +1,13 @@
+Particpant Opens ChatGPT, Copilot, or Gemini
+↓
+Extension Detects Site 
+↓
+Intervention Prompt Appears
+↓
+Participant Writes Attempt
+↓
+Participant Clicks Submit
+↓
+Data Logged
+↓
+AI Access Granted

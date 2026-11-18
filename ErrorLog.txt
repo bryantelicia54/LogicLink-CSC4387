@@ -1,0 +1,7 @@
+Error Log
+
+Date:
+Feature:
+Error Description:
+Steps to Reproduce:
+Resolution:

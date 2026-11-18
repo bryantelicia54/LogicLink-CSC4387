@@ -1,0 +1,17 @@
+Scenerios 1:
+User opens ChatGPT.
+Prompt appears.
+User submits response.
+Data saved.
+
+Scenario 2:
+User submits empty response.
+Extension blocks continuation.
+
+Scenario 3:
+User submits response.
+Data exported to CSV.
+
+Scenario 4:
+User closes browser before submitting.
+No data saved.
